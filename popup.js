@@ -1,4 +1,3 @@
-document.getElementById("button").onclick = function() {
-  var id = document.getElementById("bastion").src;
-  document.
+var pictureChange = function() {
+  document.getElementById('myImage').src='default.gif';
 }
