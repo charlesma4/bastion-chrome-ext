@@ -12,7 +12,6 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-img {
-  width: 100px;
-  padding-top: 20px;
+body {
+    min-width:300px;
 }
