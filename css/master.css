@@ -2,16 +2,52 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 100%;
 }
-button {
-  background-color: #4CAF50;
+
+#def_select {
+  padding: 0px 0px;
+  opacity: 0;
+  font-size: 0pt;
+  height: 1px;
+}
+
+#confirm_button1 {
+  background-color: #222;
   border: none;
   color: white;
   padding: 8px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
+  border-radius: 12px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body {
     min-width:300px;
+    background: #474747 url(images/bg.png);
+}
+
+h1 {
+  font: 50px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+  color: #222;
+  text-shadow: 0px 2px 3px #555;
+}
+
+h3 {
+	font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+  color: #222;
+  text-shadow: 0px 2px 3px #555;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
 }
